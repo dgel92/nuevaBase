@@ -1,8 +1,9 @@
+import NavBar from './componentes/NavBar/NavBar';
 
 function App() {
   return (
     <div>
-      Mi App
+      <NavBar/>
     </div>
   );
 }
