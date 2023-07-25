@@ -11,8 +11,8 @@ return(
         <span className="ml-3 text-xl">Soporte</span>
         </Link>
             <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <Link to="/search"className="mr-10 hover:text-white">Buscar Cliente</Link>
-            <Link to="masivos" className="mr-10 hover:text-white">Masivos</Link>
+            <Link to="/FAN" className="mr-10 hover:text-white">FAN</Link>
+            <Link to="CBS" className="mr-10 hover:text-white">CBS/C</Link>
             <Link to="informacion" className="mr-10 hover:text-white">Informacion</Link>
             </nav>
             <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Modo oscuro

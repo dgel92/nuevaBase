@@ -21,7 +21,7 @@ function LinksUtiles(){
                         <div className="h-full flex items-center border-gray-300 border p-4 rounded-lg">
                         <img alt="team" className="w-14 h-14 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={BaseConocimiento} />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">Base de Conocimiento</h2>
+                            <h2 className="text-gray-900 title-font font-medium"><a href="https://basedeconocimientos.custhelp.com/#">Base de Conocimiento</a></h2>
                         </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ function LinksUtiles(){
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" className="w-14 h-14 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={ccip} />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">CCIP</h2>
+                            <h2 className="text-gray-900 title-font font-medium"><a href="https://ccip/">CCIP</a></h2>
                         </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ function LinksUtiles(){
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" className="w-14 h-14 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Codi} />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">CODI</h2>
+                            <h2 className="text-gray-900 title-font font-medium"><a href="https://codi.telecom.com.ar/login">CODI</a></h2>
                         </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ function LinksUtiles(){
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" className="w-14 h-14 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={itracker} />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">Itrackers</h2>
+                            <h2 className="text-gray-900 title-font font-medium"><a href="https://consultaitracker/">Itrackers</a></h2>
                         </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ function LinksUtiles(){
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" className="w-14 h-14 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={ememo} />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">E-Memo</h2>
+                            <h2 className="text-gray-900 title-font font-medium"><a href="http://srv-webcv2.corp.cablevision.com.ar/ememo/">E-Memo</a></h2>
                         </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ function LinksUtiles(){
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" className="w-14 h-14 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={fan} />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">FAN SalesForce</h2>
+                            <h2 className="text-gray-900 title-font font-medium"><a href="https://telecomcrm.my.salesforce.com/console">FAN SalesForce</a></h2>
                         </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ function LinksUtiles(){
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" className="w-14 h-14 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={hub} />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">HUB</h2>
+                            <h2 className="text-gray-900 title-font font-medium"><a href="https://nuevosender.corp.cablevision.com.ar/">HUB</a></h2>
                         </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ function LinksUtiles(){
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" className="w-14 h-14 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={symphonica} />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">Symphonica</h2>
+                            <h2 className="text-gray-900 title-font font-medium"><a href="http://10.9.44.132/symphonica/v2_7/#/">Symphonica</a></h2>
                         </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ function LinksUtiles(){
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" className="w-14 h-14 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={tecdata} />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">TecData</h2>
+                            <h2 className="text-gray-900 title-font font-medium"><a href="https://mimundo-prod1.corp.cablevision.com.ar/IDPAdmin/#/Login/MGUAdmin">TecData</a></h2>
                         </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ function LinksUtiles(){
                         <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" className="w-14 h-14 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={appVentas} />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">App Ventas y contencion</h2>
+                            <h2 className="text-gray-900 title-font font-medium"><a href="https://click/customer/condiciones/condiciones/APPS/app-ventas">App Ventas y contencion</a></h2>
                         </div>
                         </div>
                     </div>
