@@ -10,6 +10,4 @@ function Portada(){
     )
 }
     
-    
-    
-    export default Portada;
+export default Portada;
