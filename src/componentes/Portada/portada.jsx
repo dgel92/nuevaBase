@@ -1,3 +1,4 @@
+import Buscador from "../Buscador/Buscador";
 import LinksUtiles from "../LinksUtiles/LinksUtiles";
 import MediosDeContactos from "../MediosDeContactos/MediosDeContactos";
 import NavBar from "../NavBar/NavBar";
@@ -6,7 +7,7 @@ import Planillas from "../Planillas/Planillas";
 function Portada(){
     return(
         <div>
-            <Planillas/>
+            <Buscador/>
             <LinksUtiles/>
             <MediosDeContactos/>
         </div>
