@@ -1,11 +1,17 @@
+import Accordion from 'react-bootstrap/Accordion';
+
 function MediosDeContactos(){
     return(
-        <section className="text-gray-700 body-font">
-            <div className="container px-2 py-10 mx-auto">
-                <div className="flex flex-col text-center w-full mb-10">
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Medios de contactos</h1>
-                </div>
-                <div className="lg:w-2/3 w-full mx-auto overflow-auto">
+        <>
+        <section className='contactos-container'>
+            <div className='contactos-title'>
+                <h2>Medios De contacto</h2>
+            </div>
+            <Accordion defaultActiveKey="0" >
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header>Gestiones Telefonicas</Accordion.Header>
+                    <Accordion.Body>
+                    <div className="lg:w-2/3 w-full mx-auto overflow-auto medioDeContacto-Container bg-dark">
                 <table className="table-auto w-full text-left whitespace-no-wrap">
                     <thead>
                     <tr>
@@ -18,50 +24,111 @@ function MediosDeContactos(){
                     </thead>
                     <tbody>
                     <tr>
-                        <td className="px-4 py-3">Ventas - Mudanzas</td>
-                        <td className="px-4 py-3">0800 555 3569 </td>
-                        <td className="px-4 py-3">OPC 3</td>
+                        <td className="px-4 py-3">Ventas</td>
+                        <td className="px-4 py-3">0800 555 0104 </td>
+                        <td className="px-4 py-3">OPC 2</td>
                         <td className="px-4 py-3">L a V 08 a 24hs</td>
                         <td className="w-10 text-center">
                         </td>
                     </tr>
                     <tr>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">FiberCoorp</td>
+                        <td className="px-4 py-3">Mudanzas</td>
+                        <td className="px-4 py-3">0800 199 0210 </td>
+                        <td className="px-4 py-3"> - </td>
+                        <td className="px-4 py-3">L a V 08 a 24hs</td>
+                        <td className="w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">Corporativo</td>
                         <td className="border-t-2 border-gray-200 px-4 py-3">0800 888 0800</td>
                         <td className="border-t-2 border-gray-200 px-4 py-3">-</td>
-                        <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">L a V de 08 a 19hs</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24 hrs</td>
                         <td className="border-t-2 border-gray-200 w-10 text-center">
                         </td>
                     </tr>
                     <tr>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">Administrativo - Bajas</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">Arnet / Fibertel</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">0800 888 0112</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">OPC 1 - 2 </td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24 hrs</td>
+                        <td className="border-t-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">Soporte Tecnico HFC / FLOW</td>
                         <td className="border-t-2 border-gray-200 px-4 py-3">0800 555 3569</td>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">OPC 5</td>
-                        <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">L a V de 08 a 22hs</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">OPC 1</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24 hrs</td>
                         <td className="border-t-2 border-gray-200 w-10 text-center">
                         </td>
                     </tr>
                     <tr>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Administrativo - Facturacion</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 555 3569</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">OPC 2</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hrs</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        <td className="border-t-2 border-gray-200 px-4 py-3">Administracion y facturacion</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">0800 555 3569</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">OPC 2</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900"> L a V 08 a 24 hrs</td>
+                        <td className="border-t-2 border-gray-200 w-10 text-center">
                         </td>
                     </tr>
                     <tr>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Area Movil</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 444 0800 ó *111 </td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">Soporte FTTH</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">0800 555 0035</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3"> - </td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hs</td>
+                        <td className="border-t-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Personal Movil</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 444 0800 - *111 </td>
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24 hrs</td>
                         <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
                         </td>
                     </tr>
                     <tr>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Whatsapp - consultas</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">1171950001</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Telefonia ex telecom</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 888 0114 - *114</td>
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24 hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    
+                    </tbody>
+                </table>
+                </div>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="1">
+                    <Accordion.Header>Gestiones por Chat</Accordion.Header>
+                    <Accordion.Body>
+                    <div className="lg:w-2/3 w-full mx-auto overflow-auto medioDeContacto-Container bg-dark">
+                    <table className="table-auto w-full text-left whitespace-no-wrap">
+                    <thead>
+                    <tr>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Area</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Referencia</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Opcion</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Horario de atencion</th>
+                        <th className="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Whatsapp - decos comprados por web</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">1178380001</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">L a V 08 a 20hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Whatsapp - Camaras compradas por web</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">1178380001</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800-199-4663 op: 2</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">L a V 08 a 20hrs</td>
                         <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
                         </td>
                     </tr>
@@ -73,12 +140,109 @@ function MediosDeContactos(){
                         <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
                         </td>
                     </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Start+ / disney+</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">1120403821 / 22</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">HBOMAX</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 345 5447</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Amazon PrimeVideo</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 038 0541</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Netflix</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 345 1593</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">09 a 03hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    
                     </tbody>
                 </table>
                 </div>
-            </div>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="2">
+                    <Accordion.Header>Soporte Pack premium</Accordion.Header>
+                    <Accordion.Body>
+                    <div className="lg:w-2/3 w-full mx-auto overflow-auto medioDeContacto-Container bg-dark">
+                    <table className="table-auto w-full text-left whitespace-no-wrap">
+                    <thead>
+                    <tr>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Area</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Referencia</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Opcion</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Horario de atencion</th>
+                        <th className="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Start+ / disney+</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">1120403821 / 22</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">HBOMAX</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 345 5447</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Amazon PrimeVideo</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 038 0541</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Netflix</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 345 1593</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">09 a 03hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Paramount</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900"></td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
         </section>
-    )
+    </>
+  );
 }
+
 
 export default MediosDeContactos

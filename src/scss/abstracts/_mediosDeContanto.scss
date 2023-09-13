@@ -1,0 +1,36 @@
+$secundary-color: rgb(23, 107, 135);
+
+
+.contactos-container{
+    display:flex;
+    flex-direction: column;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    background-color: $secundary-color;
+    justify-content: center;
+    text-align: center;
+
+    .contactos-title{
+
+        width: auto;
+        color: rgb(238, 238, 238);
+        padding: 1rem;
+        margin-top: 5vh;
+        margin-bottom: 4vh;
+        
+        h2{
+            font-size: 3rem;
+        }
+    }
+
+    .medioDeContacto-Container{
+        display:flex;
+        justify-content: center;
+        color: rgb(238, 238, 238);
+    }
+
+}
+
+.color{
+    background-color: rgb(238, 238, 238);
+}

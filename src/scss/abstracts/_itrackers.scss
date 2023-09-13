@@ -1,0 +1,22 @@
+.itracker-contenedor{
+    background-color: rgb(23, 107, 135);
+}
+.itracker-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    color:rgb(238, 238, 238);
+    h2{
+        font-size: 3rem;
+    }
+}
+.itracker-container{
+    display:flex;
+    flex-flow: row nowrap;
+    color: white;
+    height: 40vh;
+    justify-content: space-between;
+    padding: 0vh 20vh;
+
+}

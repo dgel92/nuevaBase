@@ -1,15 +1,13 @@
-import Buscador from "../Buscador/Buscador";
-import LinksUtiles from "../LinksUtiles/LinksUtiles";
+import LinksEmpresa from "../linksUtilesEmpresa/linksUtilesEmpresa";
 import MediosDeContactos from "../MediosDeContactos/MediosDeContactos";
-import NavBar from "../NavBar/NavBar";
-import Planillas from "../Planillas/Planillas";
+import Novedades from "../Novedades/Novedades";
 
 function Portada(){
     return(
-        <div>
-            <Buscador/>
-            <LinksUtiles/>
+        <div className="container-portada">
             <MediosDeContactos/>
+            <Novedades/>
+            <LinksEmpresa/>
         </div>
     )
 }
