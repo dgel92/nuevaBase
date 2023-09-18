@@ -1,10 +1,14 @@
 import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import { Link } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import Row from 'react-bootstrap/Row';
+import img from "../Media/Img/baseDeConocimiento2.png"
 import { useState } from 'react';
 
 function NavBar() {
@@ -19,6 +23,8 @@ function NavBar() {
         <Button variant="dark" onClick={handleShow}>
             Menu
         </Button>
+
+        <Link to="/" className='imgnavBar'><Image src={img} rounded/></Link>
       </div>
     <div>
       <Offcanvas show={show} onHide={handleClose}>
@@ -29,19 +35,21 @@ function NavBar() {
         <br/><br/><br/><br/><br/>
         <Navbar className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand><Link to="./Itrackers">Itrackers</Link></Navbar.Brand>
+          <Navbar.Brand><Link to="/" className='cardtext'>Inicio</Link></Navbar.Brand>
         </Container>
       </Navbar>
       <br />
       <Navbar className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">Guia</Navbar.Brand>
+        <Navbar.Brand><Link to="./Itrackers" className='cardtext'>Itrackers</Link></Navbar.Brand>
         </Container>
       </Navbar>
       <br />
       <Navbar className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">Manuales</Navbar.Brand>
+          <Navbar.Brand>
+            <Link to="./manuales" className='cardtext'>Manuales</Link>
+          </Navbar.Brand>
         </Container>
       </Navbar>
       <br /><br />

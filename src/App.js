@@ -2,10 +2,15 @@ import "./App.scss"
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import CambioDomicilioErrorFan from "./componentes/FAN/cambioDeDomicilioErrorFan";
 import Cbs from "./componentes/Cbs/Cbs";
+import ErrorEquiposEnCCIP from "./componentes/Open/ErrorEquiposEnCCIP";
+import FANErrorDeAgenda from "./componentes/FAN/ErrorDeAgenda";
+import FANEsperaDeEjecucion from "./componentes/FAN/EsperaDeEjecucion";
 import Fan from "./componentes/FAN/Fan";
 import FanervicioReducido from "./componentes/FAN/servicioReducido";
 import Footer from "./componentes/Footer/Footer";
+import FormularioContacto from "./componentes/FormularioItracker/Formularioitracker";
 import Informacion from "./componentes/Informacion/informacion";
 import Itrackers from "./componentes/itrackers/itrackers";
 import NavBar from './componentes/NavBar/NavBar';
@@ -16,6 +21,8 @@ import PaseARedes from './componentes/Open/PaseARedes';
 import Portada from "./componentes/Portada/portada";
 import PosibleMasivo from './componentes/Open/posibleMasivo';
 import ReduccionOpen from './componentes/Open/ReduccionOpen';
+import SinReduccionEn360 from './componentes/FAN/SinReduccion360';
+import SuspendidoRecurrenteCCIP from "./componentes/FAN/SuspendidoRecurrenteCCIP";
 
 function App() {
   return (
@@ -30,11 +37,12 @@ function App() {
             
             <Route path="/Fan" element={<Fan/>} />
             <Route path="/Fan/ServicioReducido" element={<FanervicioReducido/>} />
+            <Route path="/Fan/EsperaDeEjecucion" element={<FANEsperaDeEjecucion/>} />
             <Route path="/Fan/InstaladoOService" element={<Fan/>} />
-            <Route path="/Fan/ErrorAgenda" element={<Fan/>} />
-            <Route path="/Fan/CambioDeDomicilio" element={<Fan/>} />
-            <Route path="/Fan/SinReduccion360" element={<Fan/>} />
-            <Route path="/Fan/SuspendidoRecurrenteCCIP" element={<Fan/>} />
+            <Route path="/Fan/ErrorAgenda" element={<FANErrorDeAgenda/>} />
+            <Route path="/Fan/CambioDeDomicilio" element={<CambioDomicilioErrorFan/>} />
+            <Route path="/Fan/SinReduccion360" element={<SinReduccionEn360/>} />
+            <Route path="/FAN/SuspendidoRecurrenteCCIP" element={<SuspendidoRecurrenteCCIP/>} />
 
 
 
@@ -45,7 +53,13 @@ function App() {
             <Route path="/Open/OtAnularCerrar" element={<OtAnularCerrar/>} />
             <Route path="/Open/ReduccionOpen" element={<ReduccionOpen/>} />
             <Route path="/Open/PaseARedes" element={<PaseARedes/>}/>
+            <Route path="/Open/ErrorEquiposEnCCIP" element={<ErrorEquiposEnCCIP/>}/>
+
+
+
+
             <Route path="/Cbs" element={<Cbs/>} />
+            <Route path="/FormularioContacto" element={<FormularioContacto/>} />
             
             <Route path="/informacion" element={<Informacion/>} />
             <Route path="/Prodecimientos" element={<ef/>} />
