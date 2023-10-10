@@ -63,16 +63,25 @@ function OpenAdelanto() {
                     <tbody>
                         <tr>
                         <td>
-                        U:<br/>
-                        Base Operativa/Nodo:<br/>
+                        *U:<br/>
+                        Sector Operativo:<br/>
                         Localidad:<br/>
-                        Ciudad:<br/>
                         N de orden:<br/>
-                        Tipo de OT:<br/>
-                        N de cliente: 56287372<br/>
-                        Telefono:<br/>
+                        Tipo de OT: <br/>
+                        N de cliente:<br/>
+                        Dni de cte:<br/>
+                        Tecnologia (HFC/FTTH):<br/>
+                        Telefono: <br/>
                         Disponibilidad horaria:<br/>
-                        Observaciones:
+                        Día original de la cita:<br/>
+                        Zona 900 (SI/NO): <br/>
+                        Detalle del caso: <br/><br/>
+                        Elige el error que da la agenda:<br/><br/>
+                        OP1: ZONA NO PARAMETRIZADA<br/>
+                        OP2: ZONA 900<br/>
+                        OP3: SIN FECHA DISPONIBLE<br/>
+                        OP4: ERROR SALESFORCE, NO SE GUARDARON LOS DATOS CRM<br/><br/>
+                        *CAPTURA.
                             </td>
                         </tr>
                     </tbody>

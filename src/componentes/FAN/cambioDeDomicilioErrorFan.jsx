@@ -114,16 +114,21 @@ function CambioDomicilioErrorFan() {
                         Si la orden sigue en espera de ejecucion o quedo derivada, se debe generar un itracker solicitando el cierre de la orden para que impacte el cambio en FAN.<br/>
                         Planilla:
                         <br/><br/>
-                                S/N de todos los equipos (deco - ont - cm):<br/>                              
-                                u:<br/>
-                                Nº de cuenta:<br/>
-                                Orden - Caso:<br/>
-                                OT:<br/>
-                                Direccion (localidad, direccion, numeracion):<br/>
-                                Detalle:<br/>
-                                Mail:<br/>
-                                Telefono de contacto:<br/>
-                                Adjuntar captura de caso en espera de ejecucion<br/>
+                        U:<br/>
+                        N° de Cuenta:<br/>
+                        Orden - Caso:<br/>
+                        Número de OT:<br/>
+                        Estado de la Orden - Caso:<br/>
+                        Estado de la OT en CRM:<br/>
+                        Dirección:<br/>
+                        Localidad:<br/>
+                        Provincia:<br/>
+                        Disponibilidad Horaria:<br/>
+                        Detalle de Incidente:<br/>
+                        Mail:<br/>
+                        Teléfono de contacto:<br/>
+                        PRINT DE PANTALLA<br/>
+                        TAB: Admin, Equipos pendientes, Se informa procedimiento<br/>
                             </td>
                         </tr>
                     </tbody>

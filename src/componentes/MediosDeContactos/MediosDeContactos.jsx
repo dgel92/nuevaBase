@@ -25,16 +25,16 @@ function MediosDeContactos(){
                     <tbody>
                     <tr>
                         <td className="px-4 py-3">Ventas</td>
-                        <td className="px-4 py-3">0800 555 0104 </td>
-                        <td className="px-4 py-3">OPC 2</td>
+                        <td className="px-4 py-3">0800 555 3569 </td>
+                        <td className="px-4 py-3">OPC 1 + OPC 3</td>
                         <td className="px-4 py-3">L a V 08 a 24hs</td>
                         <td className="w-10 text-center">
                         </td>
                     </tr>
                     <tr>
                         <td className="px-4 py-3">Mudanzas</td>
-                        <td className="px-4 py-3">0800 199 0210 </td>
-                        <td className="px-4 py-3"> - </td>
+                        <td className="px-4 py-3">0800 555 3569 </td>
+                        <td className="px-4 py-3"> OPC 1 + OPC 3 </td>
                         <td className="px-4 py-3">L a V 08 a 24hs</td>
                         <td className="w-10 text-center">
                         </td>
@@ -48,15 +48,15 @@ function MediosDeContactos(){
                         </td>
                     </tr>
                     <tr>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">Arnet / Fibertel</td>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">0800 888 0112</td>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">OPC 1 - 2 </td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">Arnet / Fibertel / Telecom</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">0800-888 0114 Ó *114</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">OPC 1 Tel fijo - OPC 2 Internet Hogar </td>
                         <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24 hrs</td>
                         <td className="border-t-2 border-gray-200 w-10 text-center">
                         </td>
                     </tr>
                     <tr>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">Soporte Tecnico HFC / FLOW</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">Soporte Tecnico HFC / FTTH / FLOW</td>
                         <td className="border-t-2 border-gray-200 px-4 py-3">0800 555 3569</td>
                         <td className="border-t-2 border-gray-200 px-4 py-3">OPC 1</td>
                         <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24 hrs</td>
@@ -66,31 +66,16 @@ function MediosDeContactos(){
                     <tr>
                         <td className="border-t-2 border-gray-200 px-4 py-3">Administracion y facturacion</td>
                         <td className="border-t-2 border-gray-200 px-4 py-3">0800 555 3569</td>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">OPC 2</td>
+                        <td className="border-t-2 border-gray-200 px-4 py-3">OPC 1</td>
                         <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900"> L a V 08 a 24 hrs</td>
                         <td className="border-t-2 border-gray-200 w-10 text-center">
                         </td>
                     </tr>
-                    <tr>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">Soporte FTTH</td>
-                        <td className="border-t-2 border-gray-200 px-4 py-3">0800 555 0035</td>
-                        <td className="border-t-2 border-gray-200 px-4 py-3"> - </td>
-                        <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hs</td>
-                        <td className="border-t-2 border-gray-200 w-10 text-center">
-                        </td>
-                    </tr>
+        
                     <tr>
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Personal Movil</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 444 0800 - *111 </td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24 hrs</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Telefonia ex telecom</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 888 0114 - *114</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 444 0800 Ó *111 </td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">OPC 1 + OPC 5</td>
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24 hrs</td>
                         <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
                         </td>
@@ -126,9 +111,17 @@ function MediosDeContactos(){
                     </tr>
                     <tr>
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Whatsapp - Camaras compradas por web</td>
-                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">1178380001</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">1178686804</td>
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800-199-4663 op: 2</td>
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">L a V 08 a 20hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Whatsapp - Donde esta el tecnico</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">11 7195 0001 </td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">Bot 24hrs</td>
                         <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
                         </td>
                     </tr>

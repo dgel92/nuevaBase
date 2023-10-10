@@ -41,7 +41,7 @@ function ReduccionOpen() {
             </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
-            <Accordion.Header>Planilla - Contrato reducido sin deuda por pago/ajuste</Accordion.Header>
+            <Accordion.Header>Planilla - Contrato reducido sin deuda por pago/ajuste pero con servicio funcionando</Accordion.Header>
             <Accordion.Body>
                 <Table striped bordered hover size="xl">
                     <thead>
@@ -53,7 +53,7 @@ function ReduccionOpen() {
                         <tr>
                         <td>
                         Si el cliente tiene un contrato reducido sin deuda por pago/ajuste, no será necesario que cargues el manifiesto de pago.Escalá estos casos al Callback completando correctamente la planilla con los siguientes datos:
-                        <br/>      
+                        <br/>  <br/>    
                             - ID (DNI del cliente):<br/>
                             - Contrato:<br/>
                             - Tel:<br/>
@@ -126,13 +126,15 @@ function ReduccionOpen() {
                         Si no tiene deuda o indicios de una, se deberá:<br/><br/>
                         -Enviar mail a la casilla Gestión de Moras solo para exclusión de acciones de morosidad.<br/>
                         -Cargar ITracker para la restauración del servicio completando la siguiente planilla:<br/><br/>
-
-                        -Número de Cliente:<br/>
-                        -DNI / CUIL / CUIT:<br/>
-                        -Contrato:<br/>
-                        -Telefono Operador:<br/>
-                        -Detalle el incidente  gestión/ consulta:<br/>
-                        -CAPTURA:<br/>                        
+                        
+                        Planillla<br/><br/>
+                        ID (DNI del cliente):<br/>
+                        Contrato:<br/>
+                        Tel:<br/>
+                        Motivo: ACTIVAR SERVICIO-REDUCIDO SIN DEUDA-EXCLUIR DEL CIRCUITO DE REDUCCIÓN<br/>
+                        Componente afectado: (Deco, Cablemodem, Flow App, etc)<br/>
+                        Pop Up en Open: SI/NO<br/>
+                        SERVICIO REDUCIDO POR MORA SIN SALDO PENDIENTE (Servicio Reducido sin deuda + 48hs) <br/><br/>                     
                             </td>
                         </tr>
                     </tbody>

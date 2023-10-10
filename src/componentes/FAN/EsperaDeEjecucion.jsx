@@ -65,15 +65,21 @@ function FANEsperaDeEjecucion() {
                         <td>
                         La MAC del CM está compuesta por 12 dígitos y es Hexadecimal (1 al 9 y A al F)<br/>
                         NO confundir la MAC de un equipo con el número de serie. <br/><br/>                         
-                                u:<br/>
-                                Nº de cuenta:<br/>
-                                Orden - Caso:<br/>
-                                OT:<br/>
-                                Direccion (localidad, direccion, numeracion):<br/>
-                                Detalle:<br/>
-                                Mail:<br/>
-                                Telefono de contacto:<br/>
-                                Adjuntar captura de caso en espera de ejecucion<br/>
+                        U:<br/>
+                        N° de Cuenta:<br/>
+                        Orden - Caso:<br/>
+                        Número de OT:<br/>
+                        Estado de la Orden - Caso:<br/>
+                        Estado de la OT en CRM:<br/>
+                        Dirección:<br/>
+                        Localidad:<br/>
+                        Provincia:<br/>
+                        Disponibilidad Horaria:<br/>
+                        Detalle de Incidente:<br/>
+                        Mail:<br/>
+                        Teléfono de contacto:<br/>
+                        PRINT DE PANTALLA<br/>
+                        TAB: Admin, Equipos pendientes, Se informa procedimiento<br/>
                             </td>
                         </tr>
                     </tbody>
@@ -105,15 +111,21 @@ function FANEsperaDeEjecucion() {
                         - 4857xxxxxxxxxxx<br/>
                         - 04A22xxxxxxxxx<br/><br/>
                     
-                                u:<br/>
-                                Nº de cuenta:<br/>
-                                Orden - Caso:<br/>
-                                OT:<br/>
-                                Direccion (localidad, direccion, numeracion):<br/>
-                                Detalle:<br/>
-                                Mail:<br/>
-                                Telefono de contacto:<br/>
-                                Adjuntar captura de caso en espera de ejecucion<br/>
+                        U:<br/>
+                        N° de Cuenta:<br/>
+                        Orden - Caso:<br/>
+                        Número de OT:<br/>
+                        Estado de la Orden - Caso:<br/>
+                        Estado de la OT en CRM:<br/>
+                        Dirección:<br/>
+                        Localidad:<br/>
+                        Provincia:<br/>
+                        Disponibilidad Horaria:<br/>
+                        Detalle de Incidente:<br/>
+                        Mail:<br/>
+                        Teléfono de contacto:<br/>
+                        PRINT DE PANTALLA<br/>
+                        TAB: Admin, Equipos pendientes, Se informa procedimiento<br/>
                             </td>
                         </tr>
                     </tbody>
@@ -165,15 +177,21 @@ function FANEsperaDeEjecucion() {
                         - SN HOST:<br/>
                         - HOST SN:<br/><br/>
                                 
-                                u:<br/>
-                                Nº de cuenta:<br/>
-                                Orden - Caso:<br/>
-                                OT:<br/>
-                                Direccion (localidad, direccion, numeracion):<br/>
-                                Detalle:<br/>
-                                Mail:<br/>
-                                Telefono de contacto:<br/>
-                                Adjuntar captura de caso en espera de ejecucion<br/>
+                        U:<br/>
+                        N° de Cuenta:<br/>
+                        Orden - Caso:<br/>
+                        Número de OT:<br/>
+                        Estado de la Orden - Caso:<br/>
+                        Estado de la OT en CRM:<br/>
+                        Dirección:<br/>
+                        Localidad:<br/>
+                        Provincia:<br/>
+                        Disponibilidad Horaria:<br/>
+                        Detalle de Incidente:<br/>
+                        Mail:<br/>
+                        Teléfono de contacto:<br/>
+                        PRINT DE PANTALLA<br/>
+                        TAB: Admin, Equipos pendientes, Se informa procedimiento<br/>
                             </td>
                         </tr>
                     </tbody>

@@ -187,15 +187,28 @@ function FANErrorDeAgenda() {
                     <tbody>
                         <tr>
                         <td>
-                        U:<br/>
-                        N° cuenta:<br/>
-                        Caso:<br/>
-                        OT:<br/>
-                        Direccion, loc, prov, partido:<br/>
-                        Detalle:<br/>
-                        Mail:<br/>
-                        Tel:<br/>
-                        Captura del error
+                        *U:<br/>
+                        *N° de Cuenta:<br/>
+                        *Dni del cte:<br/>
+                        *Orden - Caso:<br/>
+                        *Número de OT:<br/>
+                        *Nodo: SI ES FAN SE SACA DE CCIP<br/>
+                        *Dirección:*<br/>
+                        *Localidad:*<br/>
+                        *Provincia:*<br/>
+                        *Día de la cita:<br/>
+                        *Disponibilidad Horaria: COLOCAR FRANJA HORARIA<br/>
+                        *Detalle de Incidente:<br/><br/>
+                        Selecciona uno de los motivos:<br/><br/>
+                        OP1: SI SE VE AGENDA, ERROR AL CONFIRMAR SALESFORCE, NO SE GUARDARON DATOS DE CRM<br/>
+                        OP2: NO DA AGENDA. ZONA NO PARAMETRIZADA O SIN RECURSOS.<br/>
+                        OP3: NO SE GUARDARON LOS DATOS DE ICD, SE REINTENTÓ EL FLUJO NUEVAMENTE Y SIGUE DANDO ERROR.<br/>
+                        OP4: SIN AGENDA DISPONIBLE, NO SE GENERA DERIVACION AUTOMATICA PARA CITA.<br/><br/>
+                        *Mail:*<br/>
+                        *Teléfono de contacto:<br/>
+                        *TIPO DE TEC (FTTH/HFC):<br/>
+                        *PRINT DE PANTALLA*<br/>
+                        *TAB: Admin, Equipos pendientes, Se informa procedimiento<br/>
                             </td>
                         </tr>
                     </tbody>                    

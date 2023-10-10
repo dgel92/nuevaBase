@@ -61,9 +61,7 @@ function Itrackers(){
                     <NavDropdown.Item href="#action/3.4">
                     <Link to="/FAN/SuspendidoRecurrenteCCIP" className='cardtext'>Servicio suspendido en CCIP recurrentemente</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.4">
-                    <Link to="/Open/ErrorEquiposEnCCIP" className='cardtext'>FTTH Error equipos (ccip/pendiente)</Link>
-                    </NavDropdown.Item>
+                    
                 </NavDropdown>
             </div>
             <div>
@@ -93,13 +91,9 @@ function Itrackers(){
                 </NavDropdown>
             </div>
         </div>
-        </section>
-        <section>
-            <div>
-                
-            </div>
-        </section>
+        
         <MediosDeContactos/>
+        </section>
         </>
     )
 }

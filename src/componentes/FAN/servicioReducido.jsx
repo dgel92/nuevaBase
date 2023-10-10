@@ -53,13 +53,14 @@ function FanervicioReducido() {
                     <tbody>
                         <tr>
                         <td>
-                                u:<br/>
-                                Nº de cuenta:<br/>
-                                Orden - Caso:<br/>
-                                Detalle:<br/>
-                                Mail:<br/>
-                                Telefono de contacto:<br/>
-                                Adjuntar capturas de resumen de cuenta y de la vista 360<br/>
+                        u:<br/>
+                        Nº de cuenta:<br/>
+                        Orden - Caso:<br/>
+                        Detalle:<br/>
+                        Mail:<br/>
+                        Telefono de contacto:<br/>
+                        Adjuntar capturas de resumen de cuenta y de la vista 360<br/>
+                        SERVICIO REDUCIDO POR MORA SIN SALDO PENDIENTE (Servicio Reducido sin deuda + 48hs)<br/>
                             </td>
                         </tr>
                     </tbody>

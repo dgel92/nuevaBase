@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import CambioDomicilioErrorFan from "./componentes/FAN/cambioDeDomicilioErrorFan";
 import Cbs from "./componentes/Cbs/Cbs";
+import ContactUS from "./componentes/Formulario/Formulario";
 import ErrorEquiposEnCCIP from "./componentes/Open/ErrorEquiposEnCCIP";
 import FANErrorDeAgenda from "./componentes/FAN/ErrorDeAgenda";
 import FANEsperaDeEjecucion from "./componentes/FAN/EsperaDeEjecucion";
@@ -63,6 +64,9 @@ function App() {
             
             <Route path="/informacion" element={<Informacion/>} />
             <Route path="/Prodecimientos" element={<ef/>} />
+            
+            
+            <Route path="/ContactUS" element={<ContactUS/>} />
           
           </Routes>
           <Footer/>

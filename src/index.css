@@ -9,6 +9,7 @@
 @use "./scss/abstracts/linksEmpresa";
 @use "./scss/abstracts/footer";
 @use "./scss/abstracts/itrackers";
+@use "./scss/abstracts/form";
 /*base*/
 @use "./scss/base/base";
 @use "./scss/base/reset";
