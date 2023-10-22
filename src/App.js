@@ -11,7 +11,8 @@ import FanervicioReducido from "./componentes/FAN/servicioReducido";
 import Footer from "./componentes/Footer/Footer";
 import FormularioContacto from "./componentes/FormularioItracker/Formularioitracker";
 import Informacion from "./componentes/Informacion/informacion";
-import Itrackers from './componentes/itrackers/itrackers';
+import ItrackersFan from './componentes/itrackers/itrackersFan';
+import ItrackersOpen from './componentes/itrackers/itrackersOpen';
 import Navbar from "./componentes/NavBar/NavBar";
 import Open from "./componentes/Open/Open";
 import OpenAdelanto from './componentes/Open/OpenAdelanto';
@@ -31,7 +32,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Portada/>} />
 
-            <Route path="/Itrackers" element={<Itrackers/>} />
+            <Route path="/ItrackersOpen" element={<ItrackersOpen/>} />
+            <Route path="/ItrackersFan" element={<ItrackersFan/>} />
             <Route path="/FAN" element={<Fan/>} />
             <Route path="/Open" element={<Open/>} />
 

@@ -231,6 +231,67 @@ function MediosDeContactos(){
                 </div>
                     </Accordion.Body>
                 </Accordion.Item>
+
+
+                <Accordion.Item eventKey="3">
+                    <Accordion.Header><h5>Otros</h5></Accordion.Header>
+                    <Accordion.Body>
+                    <div className="lg:w-2/3 w-full mx-auto overflow-auto medioDeContacto-Container bg-dark">
+                    <table className="table-auto w-full text-left whitespace-no-wrap">
+                    <thead>
+                    <tr>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl text-tittle">Empresa</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Numero</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Whatsapp</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Email</th>
+                        <th className="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br text-tittle">Horario</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Samsung</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 555 7267</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">1178957267</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">8:00 a 23:00 Todos los dias</td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">LG</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800-888-5454</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">1150318966</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">08:00 a 20:00 hrs dias habiles
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Amazon PrimeVideo</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 038 0541</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">24hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Netflix</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">0800 345 1593</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">09 a 03hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Paramount</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900"></td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+                    </Accordion.Body>
+                </Accordion.Item>
             </Accordion>
         </section>
     </>
