@@ -9,22 +9,22 @@ function MediosDeContactos(){
             </div>
             <Accordion defaultActiveKey="0" >
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Gestiones Telefonicas</Accordion.Header>
+                    <Accordion.Header><h5>Gestiones Telefonicas</h5></Accordion.Header>
                     <Accordion.Body>
                     <div className="lg:w-2/3 w-full mx-auto overflow-auto medioDeContacto-Container bg-dark">
                 <table className="table-auto w-full text-left whitespace-no-wrap">
                     <thead>
                     <tr>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Area</th>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Referencia</th>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Opcion</th>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Horario de atencion</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl text-tittle">Area</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Referencia</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Opcion</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Horario de atencion</th>
                         <th className="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td className="px-4 py-3">Ventas</td>
+                        <td className="px-4 py-3- text-contact">Ventas</td>
                         <td className="px-4 py-3">0800 555 3569 </td>
                         <td className="px-4 py-3">OPC 1 + OPC 3</td>
                         <td className="px-4 py-3">L a V 08 a 24hs</td>
@@ -87,16 +87,16 @@ function MediosDeContactos(){
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header>Gestiones por Chat</Accordion.Header>
+                    <Accordion.Header><h5>Gestiones por Chat</h5></Accordion.Header>
                     <Accordion.Body>
                     <div className="lg:w-2/3 w-full mx-auto overflow-auto medioDeContacto-Container bg-dark">
                     <table className="table-auto w-full text-left whitespace-no-wrap">
                     <thead>
                     <tr>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Area</th>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Referencia</th>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Opcion</th>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Horario de atencion</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl text-tittle">Area</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Referencia</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Opcion</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Horario de atencion</th>
                         <th className="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
                     </tr>
                     </thead>
@@ -172,16 +172,16 @@ function MediosDeContactos(){
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
-                    <Accordion.Header>Soporte Pack premium</Accordion.Header>
+                    <Accordion.Header><h5>Soporte Pack premium</h5></Accordion.Header>
                     <Accordion.Body>
                     <div className="lg:w-2/3 w-full mx-auto overflow-auto medioDeContacto-Container bg-dark">
                     <table className="table-auto w-full text-left whitespace-no-wrap">
                     <thead>
                     <tr>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Area</th>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Referencia</th>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Opcion</th>
-                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Horario de atencion</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl text-tittle">Area</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Referencia</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Opcion</th>
+                        <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 text-tittle">Horario de atencion</th>
                         <th className="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
                     </tr>
                     </thead>

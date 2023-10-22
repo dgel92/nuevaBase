@@ -1,8 +1,11 @@
+$secundary-color: rgb(23, 107, 135);
+
 .contenedortitulo{
     display: flex;
     justify-content: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    background-color: $secundary-color;
     
     h2{
         font-size: 3rem;
@@ -15,11 +18,12 @@
     flex-direction:row;
     flex-wrap:nowrap;
     height: auto;
-    margin: 0px 20vh 0px 20vh;
+    padding: 0px 20vh 0px 20vh;
     padding-bottom: 20vh;
     width: auto;
     align-items: center;
     justify-content: space-evenly;
+    background-color: $secundary-color;
 }
 
 .botonPortada{

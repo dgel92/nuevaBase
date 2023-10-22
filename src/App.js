@@ -1,5 +1,3 @@
-import "./App.scss"
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import CambioDomicilioErrorFan from "./componentes/FAN/cambioDeDomicilioErrorFan";
@@ -13,8 +11,8 @@ import FanervicioReducido from "./componentes/FAN/servicioReducido";
 import Footer from "./componentes/Footer/Footer";
 import FormularioContacto from "./componentes/FormularioItracker/Formularioitracker";
 import Informacion from "./componentes/Informacion/informacion";
-import Itrackers from "./componentes/itrackers/itrackers";
-import NavBar from './componentes/NavBar/NavBar';
+import Itrackers from './componentes/itrackers/itrackers';
+import Navbar from "./componentes/NavBar/NavBar";
 import Open from "./componentes/Open/Open";
 import OpenAdelanto from './componentes/Open/OpenAdelanto';
 import OtAnularCerrar from './componentes/Open/OtAnularCerrar';
@@ -29,11 +27,14 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        <NavBar/>
+        <Navbar/>
           <Routes>
             <Route path="/" element={<Portada/>} />
 
             <Route path="/Itrackers" element={<Itrackers/>} />
+            <Route path="/FAN" element={<Fan/>} />
+            <Route path="/Open" element={<Open/>} />
+
 
             
             <Route path="/Fan" element={<Fan/>} />

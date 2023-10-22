@@ -1,23 +1,31 @@
 $secundary-color: rgb(23, 107, 135);
 
-.container-Novedades{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    padding: 2% 19%;
+.novedades-container{
+    display: flex;
+    flex-flow: row wrap;;
+    max-width: 100%;
+    height: auto;
+    gap: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: $secundary-color;
-
-    h2{
-        text-align: center;
-        margin: 5vh 0px;
-        color: rgb(238, 238, 238);
-        font-size: 3rem;
-    }
 }
 
-.imgNovedades{
-    
+.novedades-card{
+    margin-bottom: 10px;
+}
+.novedad-title{
     display: flex;
+    border-radius: 2px;
+    width: 100%;
     justify-content: center;
+    
+    h1{
+    letter-spacing: .5px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 3rem;
+    }
 }

@@ -4,9 +4,9 @@ $secundary-color: rgb(23, 107, 135);
 .contactos-container{
     display:flex;
     flex-direction: column;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    padding-bottom: 20rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 10rem;
     background-color: $secundary-color;
     justify-content: center;
     text-align: center;
@@ -29,9 +29,13 @@ $secundary-color: rgb(23, 107, 135);
         justify-content: center;
         color: rgb(238, 238, 238);
     }
-
 }
 
-.color{
-    background-color: rgb(238, 238, 238);
+.text-tittle{
+    color:rgba(213, 216, 42, 0.856);
+    letter-spacing: .5px;
+}
+
+.text-contact{
+
 }

@@ -4,12 +4,12 @@ import Novedades from "../Novedades/Novedades";
 
 function Portada(){
     return(
-        <div className="container-portada">
-            <MediosDeContactos/>
-            <Novedades/>
-            <LinksEmpresa/>
-        </div>
-    )
+        <>
+        <MediosDeContactos/>
+        <Novedades/>
+        <LinksEmpresa/>
+        </>
+        )
 }
     
 export default Portada;

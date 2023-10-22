@@ -1,8 +1,5 @@
 $primary-color: rgb(23, 107, 135);
 
-.body{
-    background-color: $primary-color;
-}
 
 * {
     margin: 0;
@@ -13,7 +10,7 @@ $primary-color: rgb(23, 107, 135);
     text-decoration: none;
 }
 
-img, video {
+img, video, svg {
     max-width: 100%;
     height: auto;
 }

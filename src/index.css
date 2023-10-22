@@ -10,6 +10,7 @@
 @use "./scss/abstracts/footer";
 @use "./scss/abstracts/itrackers";
 @use "./scss/abstracts/form";
+@use "./scss/abstracts/fan";
 /*base*/
 @use "./scss/base/base";
 @use "./scss/base/reset";
