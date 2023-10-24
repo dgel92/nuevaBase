@@ -179,6 +179,7 @@ function FANEsperaDeEjecucion() {
                                 
                         U:<br/>
                         N° de Cuenta:<br/>
+                        DNI cte:<br/>
                         Orden - Caso:<br/>
                         Número de OT:<br/>
                         Estado de la Orden - Caso:<br/>

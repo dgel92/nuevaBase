@@ -13,7 +13,7 @@ function Novedades() {
         <div className="novedad-title"><h1>Novedades</h1></div>
       
         <div className="novedades-card">
-            <Card style={{ width: '40rem' }}>
+            <Card style={{ width: '20rem' }}>
             <Card.Img variant="" src={imgMantenimiento} />
             <Card.Body>
             <Card.Title>Mantenimiento Siebel Fija</Card.Title>
@@ -28,7 +28,7 @@ function Novedades() {
             </div>
             
             <div className="novedades-card">
-            <Card style={{ width: '40rem' }}>
+            <Card style={{ width: '20rem' }}>
             <Card.Img variant="" src={imgMantenimiento2} />
             <Card.Body>
             <Card.Title>Mantenimiento OPEN</Card.Title>
@@ -43,7 +43,7 @@ function Novedades() {
             </div>
 
             <div className="novedades-card">
-            <Card style={{ width: '40rem' }}>
+            <Card style={{ width: '20rem' }}>
             <Card.Img variant="" src={imgMantenimiento3} />
             <Card.Body>
             <Card.Title>Sin Stock - Control Android TV V3</Card.Title>

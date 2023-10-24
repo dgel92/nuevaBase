@@ -5,7 +5,7 @@ function MediosDeContactos(){
         <>
         <section className='contactos-container'>
             <div className='contactos-title'>
-                <h2>Medios De contacto</h2>
+                <h2>Medios de contacto</h2>
             </div>
             <Accordion defaultActiveKey="0" >
                 <Accordion.Item eventKey="0">
@@ -122,6 +122,14 @@ function MediosDeContactos(){
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">11 7195 0001 </td>
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
                         <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">Bot 24hrs</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Whatsapp soport tec - Corporativo</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">11 3100 2222  </td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">-</td>
+                        <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">L a V de 08 a 18 hs. (EXCEPTO FERIADOS)</td>
                         <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
                         </td>
                     </tr>

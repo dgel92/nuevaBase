@@ -19,7 +19,7 @@ import reduccionOpen1 from "../Media/Img/reduccionOPEN1.png"
 import reduccionOpen2 from "../Media/Img/reduccionOPEN2.png"
 import reduccionOpen3 from "../Media/Img/reduccionOPEN3.png"
 
-function ReduccionOpen() {
+function RegularizarSerializable() {
     return (
         <div className='cardFAN'>
     <Accordion defaultActiveKey="0" flush>
@@ -28,7 +28,7 @@ function ReduccionOpen() {
         <div className='img-procedimientos'><Image src={imagenPendiente} fluid /></div>;
         <br/>
         <br/>
-            <Accordion.Header >Reduccion en OPEN </Accordion.Header>
+            <Accordion.Header >Regularizar Serializable </Accordion.Header>
                 <Accordion.Body>
                 Este inconveniente ocurre cuando el cliente tuvo una deuda y realizo el pago o genero una refinanciacion pero el servicio sigue suspendido o con el pup pop de servicio reducido en OPEN.<br/>
                 Puede ser que en CODI, los bullet salgan con el servicio reducido o no, como tambien en OPEN yendo a componentes del producto, podemos ver activo aun el servicio reducido en el servicio del cliente.
@@ -59,8 +59,7 @@ function ReduccionOpen() {
                             - Tel:<br/>
                             - Motivo: ACTIVAR SERVICIO-REDUCIDO SIN DEUDA-EXCLUIR DEL CIRCUITO DE REDUCCIÓN<br/>
                             - Componente afectado: (Deco, Cablemodem, Flow App, etc)<br/>
-                            - Pop Up en Open: SI/NO<br/>
-                            - SERVICIO REDUCIDO POR MORA SIN SALDO PENDIENTE (Servicio Reducido sin deuda + 48hs)                  
+                            - Pop Up en Open: SI/NO<br/>                  
                             </td>
                         </tr>
                     </tbody>
@@ -160,4 +159,4 @@ function ReduccionOpen() {
     );
 }
 
-export default ReduccionOpen;
+export default RegularizarSerializable;

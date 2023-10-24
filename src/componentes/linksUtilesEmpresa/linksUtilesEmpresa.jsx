@@ -8,19 +8,19 @@ function LinksEmpresa() {
         </div>
         <div className='contenedorPortada'>
         <section>
-            <h3><a href="https://miportal.grupokonecta.com.ar/login/deslogueo" className='botonPortada'>CARGAR DESLOGUEO</a></h3>
-            <h3><a href="https://acichat.grupokonecta.com.ar/#/login" className='botonPortada'>CHAT ACI</a></h3>
-            <h3><a href="https://sites.google.com/view/konecta2/" className='botonPortada'>CHAT CAIS</a></h3>
-        </section>
-        <section>
-            <h3><a href="https://miportal.grupokonecta.com.ar/login" className='botonPortada'>MI PORTAL</a></h3>
-            <h3><a href="https://docs.google.com/document/d/1nHsGX7mKbftBaRLckL1Xzzj39WRyKC4K/edit" className='botonPortada'>PARO DE TRANSPORTE</a></h3>
-            <h3><a href="https://miportal.grupokonecta.com.ar/login" className='botonPortada'>REGISTROS DE AUSENTISMO</a></h3>
-        </section>
-        <section>
-            <h3><a href="https://rst.telefonica.com.ar/authorization.do" className='botonPortada'>ART</a></h3>
-            <h3><a href="https://reseteadorweb.grupokonecta.com.ar/login" className='botonPortada'>RESETEADOR DE WINDOWS</a></h3>
+            <h3><a href="https://miportal.grupokonecta.com.ar/login/deslogueo" className='botonPortada'>Cargar deslogueo</a></h3>
+            <h3><a href="https://acichat.grupokonecta.com.ar/#/login" className='botonPortada'>Chat ACI</a></h3>
             <h3><a href="https://konecta.turecibo.com/e/" className='botonPortada'>TU RECIBO WEB</a></h3>
+        </section>
+        <section>
+            <h3><a href="https://miportal.grupokonecta.com.ar/login" className='botonPortada'>Mi portal Konecta</a></h3>
+            <h3><a href="https://reseteadorweb.grupokonecta.com.ar/login" className='botonPortada'>Reseteador de window</a></h3>
+            <h3><a href="/" className='botonPortada'>Bton sin definir1</a></h3>
+        </section>
+        <section>
+            <h3><a href="https://www.galenoseguros.com.ar/seguros/art/art-home.html" className='botonPortada'>ART</a></h3>
+            <h3><a href="https://miportal.grupokonecta.com.ar/login" className='botonPortada'>Registro de ausentismo</a></h3>
+            <h3><a href="/" className='botonPortada'>Bton sin definir2</a></h3>
         </section>
     </div>
     </>

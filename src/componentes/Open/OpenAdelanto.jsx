@@ -63,7 +63,7 @@ function OpenAdelanto() {
                     <tbody>
                         <tr>
                         <td>
-                        *U:<br/>
+                        U:<br/>
                         Sector Operativo:<br/>
                         Localidad:<br/>
                         N de orden:<br/>

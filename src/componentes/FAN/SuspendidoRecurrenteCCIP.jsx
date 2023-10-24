@@ -100,14 +100,14 @@ function SuspendidoRecurrenteCCIP() {
                     <tbody>
                         <tr>
                         <td>
-                                u:<br/>
                                 Número de Cliente:<br/>
                                 DNI / CUIL:<br/>
                                 Contrato:<br/>
-                                Telefono Operador:<br/>
+                                u:<br/>
+                                Telefono de Contacto:<br/>
                                 Detalle el incidente/ gestión:<br/>
-                                consulta:<br/>
-                                motivo de suspension de sesion:<br/>
+                                Donde ocurre la suspension:<br/>
+                                Motivo de suspension de sesion:<br/>
                                 CAPTURA:<br/>
                             </td>
                         </tr>
