@@ -6,6 +6,7 @@ import img from "../Media/Img/SinTítulo.jpg";
 import imgMantenimiento from "../Media/Img/novedades/contingSiebel.jpg"
 import imgMantenimiento2 from "../Media/Img/novedades/contingOpen.jpg"
 import imgMantenimiento3 from "../Media/Img/novedades/NovedadFlow.jpg"
+import migra from "../Media/Img/novedades/migraFAN.jpg"
 
 function Novedades() {
     return(
@@ -13,22 +14,24 @@ function Novedades() {
         <div className="novedad-title"><h1>Novedades</h1></div>
       
         <div className="novedades-card">
-            <Card style={{ width: '20rem' }}>
-            <Card.Img variant="" src={imgMantenimiento} />
+            <Card style={{ width: '24rem' }}>
+            <Card.Img variant="" src={migra} />
             <Card.Body>
-            <Card.Title>Mantenimiento Siebel Fija</Card.Title>
+            <Card.Title>Migracion de Clientes OPEN a FAN</Card.Title>
             <Card.Text>
-                ID Placa: 6556 <br/>Se realizaran tareas de mantenimiento en Siebel, por lo cual no estara disponible.
-                <br/>Inicio: 22-10-23 21:00hrs
-                <br/>Termino: 23-10-23 06:00hrs
+            ID Placa: 10060
+            <br/>
+                Se realizara un proceso de migracion el dia 05-10-23, en las cuentas de estos clientes no se podran realizar una serie de gestiones. Informarle al cliente que se comunique despues de la fecha 05-10 y hay podremos gestionar su pedido
+                <br/>Inicio: 04-10-23
+                <br/>Termino: 05-10-23
             </Card.Text>
-            <Button variant="primary">Mas informacion</Button>
+            <Button variant="primary" href="https://basedeconocimientos.custhelp.com/app/answers/detail/a_id/10060">Informacion en BC</Button>
             </Card.Body>
             </Card>
             </div>
             
             <div className="novedades-card">
-            <Card style={{ width: '20rem' }}>
+            <Card style={{ width: '24rem' }}>
             <Card.Img variant="" src={imgMantenimiento2} />
             <Card.Body>
             <Card.Title>Mantenimiento OPEN</Card.Title>
@@ -37,13 +40,13 @@ function Novedades() {
                 <br/>Inicio: 23-10-23 00:30hrs
                 <br/>Termino estimado: 23-10-23 06:30hrs
             </Card.Text>
-            <Button variant="primary">Mas informacion</Button>
+            <Button variant="primary" href="https://basedeconocimientos.custhelp.com/app/answers/detail/a_id/10060">Mas informacion</Button>
             </Card.Body>
             </Card>
             </div>
 
             <div className="novedades-card">
-            <Card style={{ width: '20rem' }}>
+            <Card style={{ width: '24rem' }}>
             <Card.Img variant="" src={imgMantenimiento3} />
             <Card.Body>
             <Card.Title>Sin Stock - Control Android TV V3</Card.Title>

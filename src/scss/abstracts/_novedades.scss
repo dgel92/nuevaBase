@@ -29,3 +29,11 @@ $secundary-color: rgb(23, 107, 135);
     font-size: 3rem;
     }
 }
+
+
+.sect-planilla{
+    display:flex;
+    flex-wrap:wrap ;
+    border: 2 px solid red;
+    gap: 20px
+}

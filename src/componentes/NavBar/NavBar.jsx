@@ -8,7 +8,10 @@ import imgBC from "../Media/Img/baseDeConocimiento.png"
 
 function Navbarmenu() {
   return(
+    
     <div className='nav-container'>
+      <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      </div>
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary-" backfrou>
       <Container>
         <Navbar.Brand><Link to="/"><img src={imgBC} alt="120" className='nav-img'></img></Link></Navbar.Brand>
@@ -44,7 +47,7 @@ function Navbarmenu() {
             </NavDropdown>
 
             <NavDropdown title="CBS-CBC" id="collapsible-nav-dropdown">
-              <NavDropdown.Item ><Link to="/Fan"><span className='cbsHFC'>HFC - Serializable</span></Link></NavDropdown.Item>
+              <NavDropdown.Item ><Link to="/Cbs/CbsSerializable"><span className='cbsHFC'>HFC - Serializable</span></Link></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item><Link to="/Open"><span className='cbsHFC'>HFC - Difiere velocidad en CODI/OPEN-FAN</span></Link></NavDropdown.Item>
               <NavDropdown.Divider />

@@ -5,6 +5,7 @@ import Novedades from "../Novedades/Novedades";
 function Portada(){
     return(
         <>
+        
         <MediosDeContactos/>
         <Novedades/>
         <LinksEmpresa/>

@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import CambioDomicilioErrorFan from "./componentes/FAN/cambioDeDomicilioErrorFan";
 import Cbs from "./componentes/Cbs/Cbs";
+import CbsSerializable from "./componentes/Cbs/CbsSerializable";
 import ContactUS from "./componentes/Formulario/Formulario";
 import ErrorEquiposEnCCIP from "./componentes/Open/ErrorEquiposEnCCIP";
 import FANErrorDeAgenda from "./componentes/FAN/ErrorDeAgenda";
@@ -44,7 +45,7 @@ function App() {
 
             {/* Route de Itrackers OPEN */}
             <Route path="/Open/ReduccionOpen" element={<ReduccionOpen/>} />
-            <Route path="/Open/AdelantoAseguramiento2" element={<OpenAdelanto2/>} />
+            <Route path="/Open/AdelantoAseguramiento" element={<OpenAdelanto/>} />
             <Route path="/Open/RegularizarSerializable" element={<RegularizarSerializable/>}/>
             <Route path="/Open/ErrorEquiposEnCCIP" element={<ErrorEquiposEnCCIP/>}/>
 
@@ -54,6 +55,8 @@ function App() {
 
 
             <Route path="/Cbs" element={<Cbs/>} />
+            <Route path="/Cbs/CbsSerializable" element={<CbsSerializable/>} />
+
             <Route path="/FormularioContacto" element={<FormularioContacto/>} />
             
             <Route path="/informacion" element={<Informacion/>} />
