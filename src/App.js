@@ -44,7 +44,7 @@ function App() {
 
             {/* Route de Itrackers OPEN */}
             <Route path="/Open/ReduccionOpen" element={<ReduccionOpen/>} />
-            <Route path="/Open/AdelantoAseguramiento2" element={<OpenAdelanto2/>} />
+            <Route path="/Open/AdelantoAseguramiento" element={<OpenAdelanto/>} />
             <Route path="/Open/RegularizarSerializable" element={<RegularizarSerializable/>}/>
             <Route path="/Open/ErrorEquiposEnCCIP" element={<ErrorEquiposEnCCIP/>}/>
 
