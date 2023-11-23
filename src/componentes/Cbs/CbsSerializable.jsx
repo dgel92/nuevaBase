@@ -96,7 +96,7 @@ const CbsSerializable = () => {
                 <div>
                     <p>
                         <br></br>
-                    Como buscar un equipo en ORCOR con el MC - SN - SN GPON
+                    Como buscar un equipo en ORCOR con el MAC - SN - SN GPON
                     </p>
                     <Link to="https://basedeconocimientos.custhelp.com/app/answers/detail/a_id/3934/kw/serializable" className='button'><Button variant="outline-secondary">Como buscar en ORCOR</Button></Link>
                 </div>

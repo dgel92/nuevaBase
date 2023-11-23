@@ -12,6 +12,7 @@
 @use "./scss/abstracts/form";
 @use "./scss/abstracts/fan";
 @use "./scss/abstracts/herramientas";
+@use "./scss/abstracts/calculadora";
 /*base*/
 @use "./scss/base/base";
 @use "./scss/base/reset";

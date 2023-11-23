@@ -61,3 +61,10 @@
     background-color: rgba(0, 255, 255, 0.664);
     color: white;
 }
+
+.sect-planilla{
+    display:flex;
+    flex-wrap:wrap ;
+    border: 2 px solid red;
+    gap: 20px
+}

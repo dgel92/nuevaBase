@@ -8,19 +8,19 @@ function LinksEmpresa() {
         </div>
         <div className='contenedorPortada'>
         <section>
-            <h3><a href="https://miportal.grupokonecta.com.ar/login/deslogueo" className='botonPortada'>Cargar deslogueo</a></h3>
+            <h3><a href="https://chat.konectados.com.ar/" className='botonPortada'>Chat konectados</a></h3>
             <h3><a href="https://acichat.grupokonecta.com.ar/#/login" className='botonPortada'>Chat ACI</a></h3>
-            <h3><a href="https://konecta.turecibo.com/e/" className='botonPortada'>TU RECIBO WEB</a></h3>
+            <h3><a href="https://www.turecibo.com/" className='botonPortada'>Tu recibo web</a></h3>
         </section>
         <section>
-            <h3><a href="https://miportal.grupokonecta.com.ar/login" className='botonPortada'>Mi portal Konecta</a></h3>
-            <h3><a href="https://reseteadorweb.grupokonecta.com.ar/login" className='botonPortada'>Reseteador de window</a></h3>
-            <h3><a href="/" className='botonPortada'>Bton sin definir1</a></h3>
+            <h3><a href="https://basedeconocimientos.custhelp.com/#" className='botonPortada'>Base de Conocimientos</a></h3>
+            <h3><a href="https://caischat.grupokonecta.com.ar/" className='botonPortada'>Chat CAIS</a></h3>
+            <h3><a href="https://www.atacc.com.ar/" className='botonPortada'>ATTAC</a></h3>
         </section>
         <section>
-            <h3><a href="https://www.galenoseguros.com.ar/seguros/art/art-home.html" className='botonPortada'>ART</a></h3>
             <h3><a href="https://miportal.grupokonecta.com.ar/login" className='botonPortada'>Registro de ausentismo</a></h3>
-            <h3><a href="/" className='botonPortada'>Bton sin definir2</a></h3>
+            <h3><a href="https://miportal.grupokonecta.com.ar/" className='botonPortada'>Mi portal konecta</a></h3>
+            <h3><a href="/" className='botonPortadaOculto'>Bton sin definir2</a></h3>
         </section>
     </div>
     </>

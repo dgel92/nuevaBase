@@ -10,7 +10,7 @@ function Navbarmenu() {
   return(
     
     <div className='nav-container'>
-      <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className="text-center p-3" style={{ backgroundColor: 'rgb(0, 0, 0)' }}>
       </div>
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary-" backfrou>
       <Container>
