@@ -25,6 +25,9 @@ import ReduccionOpen from './componentes/Open/ReduccionOpen';
 import RegularizarSerializable from "./componentes/Open/RegularSerializable";
 import SinReduccionEn360 from './componentes/FAN/SinReduccion360';
 import SuspendidoRecurrenteCCIP from "./componentes/FAN/SuspendidoRecurrenteCCIP";
+import DescuentoCalculator from "./componentes/Calculadora/Calculadora";
+import MediosDeContactos from "./componentes/MediosDeContactos/MediosDeContactos";
+import ErroresFlow from "./componentes/manual/erroresFlow";
 
 function App() {
   return (
@@ -50,8 +53,8 @@ function App() {
             <Route path="/Open/ErrorEquiposEnCCIP" element={<ErrorEquiposEnCCIP/>}/>
 
 
-            {/* Route de FLOW*/}
-            <Route path="/Flow/FlowApp" element={<FlowApp/>} />
+            {/* Route de Manual*/}
+            <Route path="/ErroresFlow" element={<ErroresFlow/>} />
 
 
             <Route path="/Cbs" element={<Cbs/>} />
@@ -64,8 +67,10 @@ function App() {
             
             
             <Route path="/ContactUS" element={<ContactUS/>} />
-          
+            
           </Routes>
+          <MediosDeContactos/>
+          <DescuentoCalculator/>
           <Footer/>
       </BrowserRouter>
     </div>

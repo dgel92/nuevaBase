@@ -14,7 +14,7 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <div className="text-center p-3" style={{ backgroundColor: 'rgb(0, 0, 0)' }}>
+            <div className="text-center p-2" style={{ backgroundColor: 'rgb(0, 0, 0)' }}>
                 <p>© {new Date().getFullYear()} - Manual de FTTH</p>
             </div>
         </footer>

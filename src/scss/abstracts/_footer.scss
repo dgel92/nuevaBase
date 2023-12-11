@@ -2,7 +2,7 @@ $secundary-color: rgb(23, 107, 135);
 
 .footer-body{
     width: 100%;
-    background-color: $secundary-color;
+    background-color: rgb(155, 190, 200);
     border: 2px;
     border-color: red;
 }
@@ -21,7 +21,8 @@ $secundary-color: rgb(23, 107, 135);
         padding: 30px;
         font-size: 1.1rem;
         letter-spacing: .5px;
-        width: 40%;
+        width: 50%;
+        color: white;
     }
 
     .footer-link{
@@ -46,4 +47,5 @@ $secundary-color: rgb(23, 107, 135);
 }
 p{
     color: rgba(255, 255, 255, 0.774);
+    padding-top: 5px;
 }

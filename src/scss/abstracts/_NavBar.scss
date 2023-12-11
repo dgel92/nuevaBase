@@ -1,11 +1,11 @@
 .nav-container{
-    background-color: rgb(0,169,255);
-    
+    background-color: rgb(22, 72, 99);
 
     .nav-img{
         position: relative;
         right: 9vh;
-    }
+        border-radius: 15px;
+        }
 
     .nav-collapse{
         justify-content: space-between;

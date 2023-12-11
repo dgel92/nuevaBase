@@ -5,7 +5,7 @@ $secundary-color: rgb(23, 107, 135);
     flex-direction: column;
     width: 100%;
     justify-content: center;
-    background-color: $secundary-color;
+    background-color: rgb(66, 125, 157);
     padding-bottom: 5rem;
 
     h2{
@@ -27,7 +27,7 @@ $secundary-color: rgb(23, 107, 135);
         justify-content: center;
         padding:30px;
         border-radius: 15px;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(46, 45, 45);
 
         label{
             font-size: 1.6rem;
@@ -35,6 +35,7 @@ $secundary-color: rgb(23, 107, 135);
             letter-spacing: .5px;
             margin-bottom: 5px;
             margin-top: 5px;
+            color: white;
         }
 
         input{
@@ -47,7 +48,7 @@ $secundary-color: rgb(23, 107, 135);
             margin-top: 1rem;
             font-size: 2rem;
             font-weight: 600;
-            color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
         }
     }
 

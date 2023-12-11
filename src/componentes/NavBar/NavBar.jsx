@@ -46,8 +46,8 @@ function Navbarmenu() {
               <NavDropdown.Item href="https://consultaitracker/app/incidentes.php"><span>Seguimiento de Itrackers</span></NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="CBS-CBC" id="collapsible-nav-dropdown">
-              <NavDropdown.Item ><Link to="/Cbs/CbsSerializable"><span className='cbsHFC'>HFC - Serializable</span></Link></NavDropdown.Item>
+            <NavDropdown title="Manual" id="collapsible-nav-dropdown">
+              <NavDropdown.Item ><Link to="/ErroresFlow"><span className='cbsHFC'>Errores Flow</span></Link></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item><Link to="/Open"><span className='cbsHFC'>HFC - Difiere velocidad en CODI/OPEN-FAN</span></Link></NavDropdown.Item>
               <NavDropdown.Divider />
