@@ -28,6 +28,8 @@ import SuspendidoRecurrenteCCIP from "./componentes/FAN/SuspendidoRecurrenteCCIP
 import DescuentoCalculator from "./componentes/Calculadora/Calculadora";
 import MediosDeContactos from "./componentes/MediosDeContactos/MediosDeContactos";
 import ErroresFlow from "./componentes/manual/erroresFlow";
+import ErrorFlow from "./componentes/Flow/errorFlow";
+import AdoHome from "./componentes/Ftth/AdoHome";
 
 function App() {
   return (
@@ -49,12 +51,17 @@ function App() {
             {/* Route de Itrackers OPEN */}
             <Route path="/Open/ReduccionOpen" element={<ReduccionOpen/>} />
             <Route path="/Open/AdelantoAseguramiento" element={<OpenAdelanto/>} />
-            <Route path="/Open/RegularizarSerializable" element={<RegularizarSerializable/>}/>
+            <Route path="/Open/RegularizarSerializable" element={<FANEsperaDeEjecucion/>}/>
             <Route path="/Open/ErrorEquiposEnCCIP" element={<ErrorEquiposEnCCIP/>}/>
 
 
             {/* Route de Manual*/}
-            <Route path="/ErroresFlow" element={<ErroresFlow/>} />
+            <Route path="/ErrorFlow" element={<ErrorFlow/>} />
+
+
+
+
+          <Route path="/FTTH/AdoHome" element={<AdoHome/>} />
 
 
             <Route path="/Cbs" element={<Cbs/>} />
@@ -69,8 +76,7 @@ function App() {
             <Route path="/ContactUS" element={<ContactUS/>} />
             
           </Routes>
-          <MediosDeContactos/>
-          <DescuentoCalculator/>
+
           <Footer/>
       </BrowserRouter>
     </div>

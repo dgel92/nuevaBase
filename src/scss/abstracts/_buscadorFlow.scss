@@ -1,0 +1,49 @@
+.buscadorContainer{
+    display:flex;
+    align-items: center;
+    padding: 80px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(66, 125, 157);
+    
+    .buscadorCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+    }
+
+
+    h4{
+        padding-bottom: 20px;
+    }
+
+    input{
+        width: 340px;
+    
+    }
+
+    .buscadorbutton{
+        display:flex;
+        flex-direction: row;
+        width: 400px;
+        justify-content: space-around;
+        margin-top: 20px
+        ;
+        
+
+        button{
+            width: auto;
+            padding: 5px 15px 5px 15px;
+            border-radius: 5px;
+        }
+    }
+
+    .resultado{
+        padding-top: 20px;
+        font-size: 1.5rem;
+    }
+}

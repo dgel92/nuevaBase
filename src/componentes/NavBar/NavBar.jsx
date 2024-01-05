@@ -47,7 +47,7 @@ function Navbarmenu() {
             </NavDropdown>
 
             <NavDropdown title="Manual" id="collapsible-nav-dropdown">
-              <NavDropdown.Item ><Link to="/ErroresFlow"><span className='cbsHFC'>Errores Flow</span></Link></NavDropdown.Item>
+              <NavDropdown.Item ><Link to="/ErrorFlow"><span>Errores Flow</span></Link></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item><Link to="/Open"><span className='cbsHFC'>HFC - Difiere velocidad en CODI/OPEN-FAN</span></Link></NavDropdown.Item>
               <NavDropdown.Divider />
@@ -118,7 +118,7 @@ function Navbarmenu() {
             </NavDropdown>
 
             <NavDropdown title="FTTH" id="collapsible-nav-dropdown">
-            <NavDropdown.Item><Link to="/FAN/SuspendidoRecurrenteCCIP"><span>La tecnologia y su estructura de red</span></Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/FTTH/AdoHome"><span>ADO HOME</span></Link></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item><Link to="/Open/AdelantoAseguramiento"><span>Soporte tecnico</span></Link></NavDropdown.Item>
               <NavDropdown.Divider />

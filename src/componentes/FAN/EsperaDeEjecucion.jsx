@@ -12,6 +12,8 @@ import { Link } from "react-router-dom";
 import OntSerializable from "../Media/Img/OntSerializable.png"
 import PendienteDeInstalacion from "../../componentes/Media/Img/pendienteDeInstalacion.png"
 import PendienteDeInstalacion2 from "../../componentes/Media/Img/pendienteDeInstalacion2.png"
+import serializable from "../Media/Img/serializable.png"
+import serializable2 from "../Media/Img/serializable02.png"
 import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table';
 import fan from "../Media/Img/fan.png"
@@ -23,6 +25,7 @@ function FANEsperaDeEjecucion() {
         <Accordion.Item eventKey="0">
             <br/>
         <div className='img-procedimientos'><Image src={PendienteDeInstalacion} fluid /></div>;
+        <div className='img-procedimientos'><Image src={serializable} fluid /></div>;
         <br/>
         <br/>
             <Accordion.Header >INSTALADOS FISICAMENTE PERO SIN ACTIVACIÓN O EN ESPERA DE EJECUCION- FAN</Accordion.Header>
